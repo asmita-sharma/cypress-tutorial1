@@ -5,7 +5,7 @@ it('google search', () => {
 
        // cy.get('#APjFqb').type('Cypress Tutorial{Enter}')
 
-         cy.contains('Videos').click({ force: true })
+         cy.contains('Videos').click()
 
       //  cy.get('.MUFPAc > :nth-child(2) > a').click()      
 
